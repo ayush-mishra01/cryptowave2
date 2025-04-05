@@ -13,6 +13,7 @@ const addEventOnElem = function (elem, type, callback) {
     }
   } else {
     elem.addEventListener(type, callback);
+    
   }
 }
 
